@@ -47,7 +47,7 @@ while joke == "yes":
     choices = input("Do you want to hear a joke about robbers, tanks, or pencils (1,2,3)?: ")
 
     #each joke will play depending on the number that was picked. As well, the joke variable is used later for
-    #when the user no longer wants to hear the joke, it will get them out of the loop.
+    #when the user no longer wants to hear the joke, it will get them out of the loop then plays our rate game function
     if choices == '1':
         joke = robber_joke()        
     elif choices == '2':
