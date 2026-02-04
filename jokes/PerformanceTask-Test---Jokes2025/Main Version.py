@@ -27,7 +27,7 @@ def pencils_joke():
     input("Nevermind, it's pointless! ")
     return  input("Do you want to hear another joke or are you finished? ").lower()
 
-def rate_game(name,jokes_told):
+def rate_game(jokes_told):
     total = len(jokes_told) 
     rate = int(input("Please rate our game 1-10! "))
     final_score = int(rate * 10)
