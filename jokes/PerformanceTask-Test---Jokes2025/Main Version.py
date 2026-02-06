@@ -25,7 +25,7 @@ def pencils_joke():
     input("Knock Knock ")
     input("Broken pencil ")        
     input("Nevermind, it's pointless! ")
-    return  input("Do you want to hear another joke or are you finished? ").lower()
+    return input("Do you want to hear another joke or are you finished? ").lower()
 
 def rate_game(jokes_told):
     # by the time we reach this function, total should already be defined for how many times the person used the program
