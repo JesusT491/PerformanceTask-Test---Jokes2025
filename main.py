@@ -1,7 +1,7 @@
-
-#Main Version
+#Main Version by: Jesus Torres, Mario Pantoja
 
 #this list tracks how many jokes, theres nothing in it because we don't know that value yet
+
 jokes_told = []
 
 # Defining our Functions (abstraction)
